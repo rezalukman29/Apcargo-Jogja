@@ -2,7 +2,7 @@ import Axios from 'axios';
 
 export const ApiGetDataJobsheetID = async () => {
   const response = await Axios.get(
-    '/api/apcargo/public/admin/getJSbuyingSelling/'
+    'https://panellokasee.host/api/apcargo/public/admin/getJSbuyingSelling/'
   )
     .then((response) => {
       return response;
